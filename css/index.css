@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font: 12px/1 'Open Sans', sans-serif;
+  overflow: hidden;
+}
+
+flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+  
+}
+
+flex-container > flex-item {
+    height: 90%;
+    flex: 0 0 25%;
+    margin-right: 8px;
+    box-shadow: 5px #663399;
+    background-color: #4682B4
+
+}
+
+flex-container {
+    height: 90%;
+    flex: 0 0 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+flex-container> flex-item {
+    flex: 0 0 45%;
+    border: 1px  #333;
+    background-color: #3050CD;
+}
+flex-container{
+  height: 30%;
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+flex-container > flex-item{
+  flex: 0 0 50%;
+  border: 1px  #333;
+  background-color: #6A5ACD;
+  width: 90%;
+  margin-left: 5%;
+}
+flex-container{
+  height: 20%;
+  flex: 0 0 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+flex-container > flex-item{
+  flex: 0 0 95%;
+  border: 1px  #333;
+  background-color: transparent;
+  width: 90%;
+  margin-left: 5%;
+  font-family: 'Open Sans'
+
+}
+
+
+/************************Navbar**********************/
+ nav {
+  display: inline-flex;
+  list-style: none;
+  align-items: center;
+  text-decoration: none;
+  
+}
+nav a{
+  margin-left: 10px;
+  margin-right: auto;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1E90FF;
+  text-decoration: none;
+  list-style: none;
+}
+nav a:hover{
+  color: #00BFFF;
+  transition: .5s;
+  cursor: pointer;
+}
+.main-container{
+  width: 90%;
+  margin-left: 5%;
+}
+
+/***************************************************/
+
+
+.logo1{
+  height: 25%;
+  width: auto;
+  margin-top: 20px;
+  display: flex;
+  margin: auto;
+}
+
+flex-item h2{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans'
+
+}
+flex-item hr{
+  border-width: 3px white;
+  margin-top: 20px;
+  font-family: 'Open Sans'
+
+}
+flex-item h3{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans'
+
+}
+
+#content1{
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans'
+
+}
+#lorem{
+  color: white;
+  font-size: 17px;
+  margin-top: 20px;
+  font-family: 'Open Sans'
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+#myBtn{
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 5px #663399;
+    background-color: #4682B4;
+    border: #3050CD;
+}
+#myBtn:hover{
+  background-color: #663399;
+  transition: .5s;
+  cursor: pointer;
+}
+#myBtn p{
+  color: #fefefe;
+}
+#area{
+  width: 100%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
